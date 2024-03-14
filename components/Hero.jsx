@@ -10,7 +10,7 @@ const Hero = ({ heading, message }) => {
         <h2 className="text-5xl font-bold text-center">{heading}</h2>
         <p className="py-5 text-xl text-center">{message}</p>
         <Link href="/contact/#contact">
-          <a className="px-10 py-2 border font-bold transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#4e4636]">
+          <a id="apropos" className="px-10 py-2 border font-bold transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#4e4636]">
             Réservez
           </a>
         </Link>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Apropos = () => {
   return (
-    <div id="apropos" className="flex flex-col items-center justify-center">
+    <div  className="flex flex-col items-center justify-center">
       <div>
         <h2
           className="text-6xl mb-[-6] text-[#c5ae87] "
@@ -52,7 +52,7 @@ const Apropos = () => {
       </div>
 
       <div>
-        <h3 className="text-4xl mt-[6px] mb-6 font-semibold text-center">
+        <h3 id="faq" className="text-4xl mt-[6px] mb-6 font-semibold text-center">
           Illuminez, libérez, prospérez !{" "}
         </h3>
       </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 const Tarification = () => {
   return (
     <div
-      id="tarification"
+      
       className="flex flex-col items-center justify-center"
     >
       <div>
