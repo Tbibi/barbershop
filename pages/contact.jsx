@@ -6,7 +6,7 @@ import Index from "./index";
 const contact = () => {
   return (
     <div>
-      <Hero
+      <Hero 
         heading="CONTACT"
         message="Prenez le premier pas vers une vie sans dépendances en nous contactant dès maintenant."
       />
