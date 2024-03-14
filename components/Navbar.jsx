@@ -68,7 +68,7 @@ const Navbar = () => {
             <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
-        <div className=" sm:flex items-center">
+        <div className="hidden sm:flex items-center">
           <p
             className="text-xl font-semibold text-white"
             style={{
