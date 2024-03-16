@@ -94,7 +94,7 @@ const FaqAccordion = () => {
       </div>
 
       <button className="accordion">COMBIEN DE TEMPS ÇA DURE ?</button>
-      <div id="tarification" className="panel">
+      <div className="panel">
         <p className="text-l mt-5 bg-[#f3eee7]/80 text-black lg:mt-[10px] ">
           Notre thérapie peut vous aider après une seule session de laser non
           invasive.*

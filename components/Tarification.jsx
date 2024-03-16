@@ -3,13 +3,10 @@ import Link from "next/link";
 
 const Tarification = () => {
   return (
-    <div
-      
-      className="flex flex-col items-center justify-center"
-    >
+    <div className="flex flex-col items-center justify-center">
       <div>
         <h2
-          className="text-6xl mb-[-6] text-[#c5ae87] "
+          className="text-center text-6xl mb-[-6] text-[#c5ae87] "
           style={{
             fontFamily: "Sacramento",
             fontStyle: "italic",
@@ -19,12 +16,18 @@ const Tarification = () => {
         </h2>
       </div>
       <div>
-        <h3 className="text-4xl mt-[-6px]  font-semibold text-center mx-6" style={{ textDecoration: 'line-through',  textDecorationColor:'#c5ae87' }}>
+        <h3
+          className="text-4xl mt-[-6px]  font-semibold text-center mx-6"
+          style={{
+            textDecoration: "line-through",
+            textDecorationColor: "#c5ae87",
+          }}
+        >
           195€
         </h3>
-        <h3 className="text-4xl mt-[-6px]  font-semibold text-center mx-6" >
-                  180€ (prix de lancement)
-                </h3>
+        <h3 className="text-4xl mt-[-6px]  font-semibold text-center mx-6">
+          180€ (prix de lancement)
+        </h3>
       </div>
       <div className="mx-8 mt-12">
         <h3 className="text-xl font-semibold mb-4 text-center">
@@ -36,7 +39,8 @@ const Tarification = () => {
           Les résultats sont garantis*.
         </p>
         <p className="text-sm text-black text-center">
-          *En cas de résultat insatisfaisant, une séance gratuite vous sera offerte.
+          *En cas de résultat insatisfaisant, une séance gratuite vous sera
+          offerte.
         </p>
       </div>
       <div className="mx-8 mt-12">
@@ -45,8 +49,8 @@ const Tarification = () => {
         </h3>
         <p className="text-lg mb-4 text-center">
           Nous offrons une garantie de 12 mois sur nos séances.
-          <br /> Si le résultat n&apos;est pas satisfaisant, une séance gratuite sera
-          offerte.
+          <br /> Si le résultat n&apos;est pas satisfaisant, une séance gratuite
+          sera offerte.
         </p>
       </div>
       <Link href="/contact/#contact">
