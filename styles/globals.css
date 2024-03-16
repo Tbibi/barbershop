@@ -70,3 +70,7 @@ html {
 }
 
 
+
+input[type=text]:focus {
+  
+}

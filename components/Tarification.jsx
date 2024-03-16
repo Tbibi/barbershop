@@ -35,7 +35,8 @@ const Tarification = () => {
         </h3>
         <p className="text-lg mb-4 text-center">
           Notre séance d&apos;auriculothérapie coûte 180€ au lieu de 195€.
-          <br />
+        </p>
+        <p className="text-lg mb-4 text-center">
           Les résultats sont garantis*.
         </p>
         <p className="text-sm text-black text-center">
