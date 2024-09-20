@@ -6,11 +6,11 @@ export default function Document() {
       <Head>
         <meta
           name="keywords"
-          content="auriculothérapie, obésité morbide, laser, laserthérapie, laser anti-tabac, tabagiste, sevrage tabac, tabagisme passif, arrêt cigarette, tarif auriculothérapie, sans effets secondaires, sans douleurs, sans prise de poids, garantie, médecine alternative, acupuncture auriculaire, bien-être, santé, soulagement douleur, traitement addiction, médecine chinoise, équilibre énergétique, médecine traditionnelle chinoise, médecine douce, acupuncture, traitement naturel, médecine préventive, gestion du stress, relaxation, acupuncture sans aiguilles, santé naturelle, bien-être physique, bien-être mental, thérapie alternative, acupuncture auriculotherapie, médecine complémentaire, santé globale, médecine intégrative, traitement non invasif, harmonisation énergétique, médecine holistique, soulagement du stress, amélioration de la circulation sanguine, relaxation profonde, réduction de l'anxiété, amélioration du sommeil, gestion de la douleur, renforcement du système immunitaire, amélioration de la digestion, réduction de l'inflammation."
+          content="barber shop, coiffure, coupe de cheveux, rasage, soins capillaires, style masculin, tendance, entretien de la barbe, salon de coiffure, grooming, service professionnel, bien-être, confiance en soi."
         />
         <meta
           name="description"
-          content="Découvrez les bienfaits de l'auriculothérapie pour traiter l'obésité morbide, les problèmes de sommeil, arrêter le tabac, les drogues et toute autre dépendances ou addiction ainsi que pour soulager les douleurs, sans effets secondaires ni prise de poids. Profitez d'un service professionnel et d'une garantie de résultats avec notre cabinet spécialisé."
+          content="Chez SKOU BARBER, nous offrons des coupes de cheveux tendance et des soins de rasage de qualité pour révéler votre style unique. Profitez d'une expérience personnalisée dans un environnement accueillant, avec une équipe dédiée à votre bien-être."
         />
         <link rel="icon" href="/logoskou.webp" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

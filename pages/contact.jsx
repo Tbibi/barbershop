@@ -7,8 +7,9 @@ const contact = () => {
   return (
     <div>
       <Hero 
-        heading="CONTACT"
-        message="Prenez le premier pas vers une vie sans dépendances en nous contactant dès maintenant."
+      heading="CONTACT"
+      message="N'hésitez pas à nous contacter pour prendre rendez-vous ou discuter de vos besoins. 
+      Chez SKOU BARBER, nous sommes là pour vous aider à révéler votre style et votre bien-être."      
       />
       <Contact />
     </div>
