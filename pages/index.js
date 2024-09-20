@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
+// import Head from "next/head";
+// import Image from "next/image";
 import Hero from "../components/Hero";
 import Apropos from "../components/Apropos";
 import Faq from "../components/Faq";
@@ -9,19 +9,19 @@ export default function Home() {
   return (
     <>
       <Hero
-        heading="LASER RUSH"
-        message="Une nouvelle vision sans addiction."
+        heading="SKOU BARBER"
+        message="Transformez votre look, vivez sans contraintes."
       />
       <section>
         <section className="pt-6" id="apropos">
           <Apropos />
         </section>
-        <section id="faq">
+        {/* <section id="faq">
           <Faq />
-        </section>
-        <section className="pt-6" id="tarification">
+        </section> */}
+        {/* <section className="pt-6" id="tarification">
           <Tarification />
-        </section>
+        </section> */}
       </section>
     </>
   );

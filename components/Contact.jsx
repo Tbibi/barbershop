@@ -9,8 +9,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_zwlhbmy", // Remplacez par votre service ID EmailJS
-        "template_rnsuh32", // Remplacez par votre template ID EmailJS
+        "service_niau21u", // Remplacez par votre service ID EmailJS
+        "service_niau21u", // Remplacez par votre template ID EmailJS
         form.current,
         "jgrb235EjH_VJmyuM" // Remplacez par votre user ID EmailJS
       )
@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
         <div>
           <h3 className="text-4xl mt-[-6px] mb-6 font-semibold text-center mx-6">
-            BIENVENUE CHEZ LASER RUSH
+            BIENVENUE CHEZ SKOU BARBER
           </h3>
         </div>
         <div className="mx-8">
@@ -54,9 +54,9 @@ const Contact = () => {
                 fontFamily: "Raleway",
               }}
               className="hover:text-[#C4AF89] transition transform"
-              href="tel:+33781195599"
+              href="tel:+212617096348"
             >
-              0781195599
+              0617096348
             </a>
             .
           </p>

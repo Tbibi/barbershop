@@ -17,48 +17,21 @@ const Apropos = () => {
       </div>
       <div>
         <h3 className="text-4xl mt-[-6px] mb-6 font-semibold text-center mx-auto">
-          BIENVENUE CHEZ LASER RUSH
+          BIENVENUE CHEZ SKOU BARBER
         </h3>
       </div>
       <div className="mx-8">
-        <p className="mb-4 text-lg text-justify lg:text-center">
-          La demande d&apos;auriculothérapie n&apos;a jamais été aussi élevée. Souvent,
-          le grand public se trouve désemparé, ne sachant pas vers quel
-          prestataire se tourner ni sur quels critères se baser pour faire le
-          meilleur choix.
+        <p className="text-2xl mt-[-6px] font-semibold text-center mx-auto">
+        Vous planifiez un événement spécial ou souhaitez une nouvelle coiffure ?
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
-          C&apos;est là que Laser Rush entre en jeu, votre cabinet spécialisé où
-          nous vous proposons une approche holistique pour vous accompagner vers
-          un mieux-être. Forts de notre expertise, nous vous aidons à vous
-          libérer de toutes vos addictions, ainsi que des problèmes liés à
-          l&apos;obésité, au sucre, au sommeil et bien d&apos;autres encore. Notre méthode,
-          issue de la médecine chinoise et dérivée de l&apos;acupuncture, est indolore
-          et efficace contre toute addiction, sans aucun effet secondaire.
-        </p>
-        <p className="mb-4 text-lg text-justify lg:text-center">
-          Chez Laser Rush, nous nous engageons à vous offrir des résultats
-          durables, garantissant votre satisfaction à chaque étape de votre
-          parcours vers une vie équilibrée et épanouie. Nous vous assurons
-          également un service client exceptionnel et des tarifs compétitifs,
-          pour que vous repartiez avec le sourire.
-        </p>
-        <p className="mb-4 text-lg text-justify lg:text-center">
-          De plus, nous vous offrons une garantie de 12 mois ; si une séance ne
-          vous apporte pas les résultats escomptés, nous vous proposons une
-          autre séance gratuitement.
+          Chez SKOU BARBER, nous nous déplaçons pour vous accompagner lors de vos occasions spéciales. Que ce soit pour une coupe tendance, un rasage de près, ou pour préparer un mariage, 
+          ou toute autre célébration, notre équipe est prête à vous offrir une expérience inoubliable, 
+          directement sur place. N’hésitez pas à nous contacter pour réserver votre rendez-vous ou discuter de vos besoins spécifiques pour vos événements !
         </p>
       </div>
-
-      <div>
-        <h3 className="text-4xl mt-[6px] mb-6 font-semibold text-center">
-          Illuminez, libérez, prospérez !
-        </h3>
-      </div>
-      <Link href="contact/#contact">
-        <a className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#c5ae87]">
+      <Link href="contact/#contact" className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#c5ae87]">
           Réservez
-        </a>
       </Link>
     </div>
   );

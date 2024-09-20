@@ -3,10 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 const images = [
-  "/bg.webp",
-  "/bg1.webp",
-  "/bg2.webp",
-  "/bg3.webp",
+  // "/bg.webp",
+  // "/bg1.webp",
+  "/1jpeg.webp",
+  "/2.jpeg",
+  "/3.jpeg",
+  "/4.jpeg",
+  // "/bg2.webp",
+  // "/bg3.webp",
 ];
 
 const HeroCarousel = ({ heading, message }) => {
@@ -40,10 +44,8 @@ const HeroCarousel = ({ heading, message }) => {
       <div className="p-5 text-white z-[2] flex flex-col items-center justify-center absolute">
         <h2 className="text-5xl font-bold text-center">{heading}</h2>
         <p className="py-5 text-xl text-center">{message}</p>
-        <Link href="/contact/#contact">
-          <a className="px-10 py-2 border font-bold transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#4e4636]">
+        <Link href="/contact/#contact" className="px-10 py-2 border font-bold transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#4e4636]">
             Réservez
-          </a>
         </Link>
       </div>
       <button onClick={prevSlide} className="absolute top-1/2 left-0 transform -translate-y-1/2 text-4xl text-white text-opacity-20 p-2 hover:bg-opacity-75" style={{ zIndex: 100 }}>

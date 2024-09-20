@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer
-      className="bg-[#27221b] text-white py-12"
+      className="bg-[#000000] text-white py-12"
       style={{
         position: "relative",
         bottom: 0,
@@ -17,10 +17,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}
           <div className="mb-8 md:mb-0">
-            <Link href="/">
-              <a className="flex items-center space-x-2">
-                <Image src="/logo.webp" alt="Logo" width={80} height={80} />
-              </a>
+            <Link href="/" className="flex items-center space-x-2">
+                <Image src="/logoskou.webp" alt="Logo" width={80} height={80} />
             </Link>
           </div>
 
@@ -31,27 +29,27 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link href="/">
-                    <a>Accueil</a>
+                      Accueil
                   </Link>
                 </li>
                 <li>
                   <Link href="/#apropos">
-                    <a>À propos</a>
+                      À propos
                   </Link>
                 </li>
                 <li>
                   <Link href="/#faq">
-                    <a>Faq</a>
+                      Faq
                   </Link>
                 </li>
                 <li>
                   <Link href="/#tarification">
-                    <a>Tarification</a>
+                      Tarification
                   </Link>
                 </li>
                 <li>
                   <Link href="/contact">
-                    <a>Contact</a>
+                      Contact
                   </Link>
                 </li>
                 {/* Add more links as needed */}
@@ -61,30 +59,30 @@ const Footer = () => {
             {/* Opening Hours */}
             <div>
               <h3 className="font-semibold text-lg mb-2">HEURES D&apos;OUVERTURE</h3>
-              <p>Lun - Dim: 8:00 - 20:00 </p>
+              <p>Lun - Dim: 10:00 - 00:00 </p>
             </div>
 
             {/* Contact Info */}
             <div>
               <h3 className="font-semibold text-lg mb-2">CONTACT</h3>
-              <p>13 Rue du Clos d&apos;en Haut</p>
-              <p>78700 Conflans-Sainte-Honorine, France</p>
+              <p>hay mesjid   d&apos;en Haut</p>
+              <p>rue 1 n 48, Casablanca</p>
               <p>
                 Email :{" "}
                 <a
                   className="hover:text-[#C4AF89] transition duration-300 transform"
-                  href="mailto:Contact@laserrush.fr"
+                  href="mailto:amineskou05@gmail.com" 
                 >
-                  Contact@laserrush.fr
+                  amineskou05@gmail.com
                 </a>
               </p>
               <p>
                 Téléphone :{" "}
                 <a
                   className="hover:text-[#C4AF89] transition duration-300 transform"
-                  href="tel:+33781195599"
+                  href="tel:+212617096348"
                 >
-                  0781195599
+                  0617096348
                 </a>
               </p>
             </div>

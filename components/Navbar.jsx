@@ -17,12 +17,12 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setColor("rgba(255, 255, 255, 255)");
-        setTextColor("#000000");
+        setColor("rgba(0,0,0)");
+        setTextColor("#ffffff");
         setScrolling(true);
       } else {
         setColor("transparent");
-        setTextColor("#ffffff");
+        setTextColor("#000000");
         setScrolling(false);
       }
     };
@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <Image
-            src="/logo.webp"
+            src="/logoskou.webp"
             alt="logo"
             width={80}
             height={80}
@@ -84,12 +84,29 @@ const Navbar = () => {
                 fontFamily: "Raleway",
               }}
               className="hover:text-[#C4AF89] transition transform"
-              href="tel:+33781195599"
+              href="tel:+212617096348"
             >
-              0781195599
+              0617096348
             </a>
           </p>
         </div>
+        <div className="mt-8 md:mt-0 ">
+            <div className="flex space-x-4 flex justify-center items-center">
+              <a
+                href="#"
+                className="hover:transition duration-300 transform hover:scale-105"
+              >
+                <Image src="/insta.svg" alt="Instagram" className="w-6 h-6" width={25} height={25}/>
+              </a>
+              <a
+                href="#"
+                className="hover:transition duration-300 transform hover:scale-105"
+              >
+                <Image src="/fb.svg" alt="FaceBook" className="w-6 h-6" width={25} height={25}/>
+              </a>
+              {/* Add more social media icons as needed */}
+            </div>
+          </div>
 
         {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10">

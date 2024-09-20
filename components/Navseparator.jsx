@@ -11,9 +11,9 @@ const NavbarSeparator = () => {
             fontFamily: "Raleway",
           }}
           className="hover:text-[#C4AF89] transition transform"
-          href="tel:+33781195599"
+          href="tel:+212617096348"
         >
-          0781195599
+          0617096348
         </a>
       </p>
     </div>

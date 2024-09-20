@@ -4,31 +4,29 @@ import Link from "next/link";
 const Tarification = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div>
-        <h2
-          className="text-center text-6xl mb-[-6] text-[#c5ae87] "
-          style={{
-            fontFamily: "Sacramento",
-            fontStyle: "italic",
-          }}
-        >
-          Notre tarif
-        </h2>
-      </div>
-      <div>
-        <h3
-          className="text-4xl mt-[-6px]  font-semibold text-center mx-6"
-          style={{
-            textDecoration: "line-through",
-            textDecorationColor: "#c5ae87",
-          }}
-        >
-          195€
-        </h3>
-        <h3 className="text-4xl mt-[-6px]  font-semibold text-center mx-6">
-          180€ (prix de lancement)
-        </h3>
-      </div>
+      <h2
+        className="text-center text-6xl mb-4 text-[#c5ae87]"
+        style={{
+          fontFamily: "Sacramento",
+          fontStyle: "italic",
+        }}
+      >
+        Notre tarif
+      </h2>
+
+      <h3
+        className="text-4xl mt-[-6px] font-semibold text-center mx-6"
+        style={{
+          textDecoration: "line-through",
+          textDecorationColor: "#c5ae87",
+        }}
+      >
+        195€
+      </h3>
+      <h3 className="text-4xl mt-[-6px] font-semibold text-center mx-6">
+        180€ (prix de lancement)
+      </h3>
+
       <div className="mx-8 mt-12">
         <h3 className="text-xl font-semibold mb-4 text-center">
           Une Seule Séance est Suffisante
@@ -54,11 +52,9 @@ const Tarification = () => {
           sera offerte.
         </p>
       </div>
-      <Link href="/contact/#contact">
-        <a className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#c5ae87]">
-          {" "}
+
+      <Link href="/contact/#contact" className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#c5ae87]">
           Réservez
-        </a>
       </Link>
     </div>
   );
