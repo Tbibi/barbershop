@@ -39,14 +39,33 @@ const HeroCarousel = ({ heading, message }) => {
           className={`absolute inset-0 transition-opacity duration-1000 ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
         >
           <Image src={image} layout="fill" objectFit="cover" alt={`Slide ${index + 1}`} />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black opacity-40" />
         </div>
       ))}
       <div className="p-5 text-white z-[2] flex flex-col items-center justify-center absolute">
         <h2 className="text-5xl font-bold text-center">{heading}</h2>
         <p className="py-5 text-xl text-center">{message}</p>
-        <Link href="/contact/#contact" className="px-10 py-2 border font-bold transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#4e4636]">
-            Réservez
-        </Link>
+        {/* <Link href="/contact/#contact" className="px-10 py-2 border font-bold transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#4e4636]">
+          Réservez
+        </Link> */}
+        <div className="mt-8 md:mt-0 ">
+            <div className="flex space-x-4 flex justify-center items-center">
+              <a
+                href="#"
+                className="hover:transition duration-300 transform hover:scale-105"
+              >
+                <Image src="/insta.svg" alt="Instagram" className="w-6 h-6" width={25} height={25}/>
+              </a>
+              <a
+                href="#"
+                className="hover:transition duration-300 transform hover:scale-105"
+              >
+                <Image src="/fb.svg" alt="FaceBook" className="w-6 h-6" width={25} height={25}/>
+              </a>
+              {/* Add more social media icons as needed */}
+            </div>
+          </div>
       </div>
       <button onClick={prevSlide} className="absolute top-1/2 left-0 transform -translate-y-1/2 text-4xl text-white text-opacity-20 p-2 hover:bg-opacity-75" style={{ zIndex: 100 }}>
         &#10094;

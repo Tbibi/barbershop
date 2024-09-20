@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="mb-8 md:mb-0">
             <Link href="/" className="flex items-center space-x-2">
-                <Image src="/logoskou.webp" alt="Logo" width={80} height={80} />
+                <Image src="/logoskou.webp" alt="Logo" width={160} height={80} />
             </Link>
           </div>
 

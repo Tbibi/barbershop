@@ -44,8 +44,8 @@ const Navbar = () => {
           <Image
             src="/logoskou.webp"
             alt="logo"
-            width={80}
-            height={80}
+            width={160}
+            height={100}
             loading="lazy"
           />
         </Link>
@@ -59,12 +59,12 @@ const Navbar = () => {
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
             <Link href="/#apropos">À PROPOS</Link>
           </li>
-          <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
+          {/* <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
             <Link href="/#faq">FAQ</Link>
-          </li>
-          <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
+          </li> */}
+          {/* <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
             <Link href="/#tarification">TARIFICATION</Link>
-          </li>
+          </li> */}
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
             <Link href="/contact">CONTACT</Link>
           </li>
@@ -83,30 +83,13 @@ const Navbar = () => {
               style={{
                 fontFamily: "Raleway",
               }}
-              className="hover:text-[#C4AF89] transition transform"
+              className="hover:text-[#f0aa38] transition transform"
               href="tel:+212617096348"
             >
               0617096348
             </a>
           </p>
         </div>
-        <div className="mt-8 md:mt-0 ">
-            <div className="flex space-x-4 flex justify-center items-center">
-              <a
-                href="#"
-                className="hover:transition duration-300 transform hover:scale-105"
-              >
-                <Image src="/insta.svg" alt="Instagram" className="w-6 h-6" width={25} height={25}/>
-              </a>
-              <a
-                href="#"
-                className="hover:transition duration-300 transform hover:scale-105"
-              >
-                <Image src="/fb.svg" alt="FaceBook" className="w-6 h-6" width={25} height={25}/>
-              </a>
-              {/* Add more social media icons as needed */}
-            </div>
-          </div>
 
         {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10">
