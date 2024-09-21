@@ -9,6 +9,9 @@ const images = [
   "/2.jpeg",
   "/3.jpeg",
   "/4.jpeg",
+  "/5.jpeg",
+  "/6.jpeg",
+  "/7.jpeg",
   // "/bg2.webp",
   // "/bg3.webp",
 ];
@@ -52,17 +55,32 @@ const HeroCarousel = ({ heading, message }) => {
         <div className="mt-8 md:mt-0 ">
             <div className="flex space-x-4 flex justify-center items-center">
               <a
-                href="#"
+                href="https://www.instagram.com/skou_barber/"
                 className="hover:transition duration-300 transform hover:scale-105"
               >
                 <Image src="/insta.svg" alt="Instagram" className="w-6 h-6" width={25} height={25}/>
               </a>
               <a
+                href="https://wa.me/212617096348"
+                className="hover:transition duration-300 transform hover:scale-105"
+                target="_blank" // Optional: opens the link in a new tab
+                rel="noopener noreferrer" // Security for external links
+              >
+                <Image
+                  src="/whatsapp.svg" // Update this to your WhatsApp icon file
+                  alt="WhatsApp"
+                  className="w-6 h-6"
+                  width={25}
+                  height={25}
+                />
+              </a>
+
+              {/* <a
                 href="#"
                 className="hover:transition duration-300 transform hover:scale-105"
               >
                 <Image src="/fb.svg" alt="FaceBook" className="w-6 h-6" width={25} height={25}/>
-              </a>
+              </a> */}
               {/* Add more social media icons as needed */}
             </div>
           </div>

@@ -93,16 +93,24 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-2">Réseaux Sociaux</h3>
             <div className="flex space-x-4 flex justify-center items-center">
               <a
-                href="#"
+                href="https://www.instagram.com/skou_barber/"
                 className="hover:transition duration-300 transform hover:scale-105"
               >
                 <Image src="/insta.svg" alt="Instagram" className="w-6 h-6" width={25} height={25}/>
               </a>
               <a
-                href="#"
+                href="https://wa.me/212617096348"
                 className="hover:transition duration-300 transform hover:scale-105"
+                target="_blank" // Optional: opens the link in a new tab
+                rel="noopener noreferrer" // Security for external links
               >
-                <Image src="/fb.svg" alt="FaceBook" className="w-6 h-6" width={25} height={25}/>
+                <Image
+                  src="/whatsapp.svg" // Update this to your WhatsApp icon file
+                  alt="WhatsApp"
+                  className="w-6 h-6"
+                  width={25}
+                  height={25}
+                />
               </a>
               {/* Add more social media icons as needed */}
             </div>

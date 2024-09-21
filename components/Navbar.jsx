@@ -69,7 +69,7 @@ const Navbar = () => {
             <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
-        <div className="hidden sm:flex items-center">
+        {/* <div className="hidden sm:flex justify-center items-center">
           <p
             className="text-xl font-semibold text-white"
             style={{
@@ -89,7 +89,30 @@ const Navbar = () => {
               0617096348
             </a>
           </p>
-        </div>
+        </div> */}
+        <div className="flex items-center">
+          <p
+            className="text-xl font-semibold text-white"
+              style={{
+              fontFamily: "Sacramento",
+              fontStyle: "italic",
+              color: `${textColor}`,
+              }}
+          >
+            Appelez-nous :{" "}
+          <a
+            style={{
+            fontFamily: "Raleway",
+            }}
+            className="hover:text-[#C4AF89] transition transform"
+                href="tel:+212617096348"
+          >
+            0617096348
+          </a>
+  </p>
+</div>
+
+        
 
         {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10">

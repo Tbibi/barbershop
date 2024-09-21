@@ -1,0 +1,1 @@
+"use strict";exports.id=762,exports.ids=[762],exports.modules={9762:(e,s,t)=>{t.r(s),t.d(s,{default:()=>p});var r=t(997),d=t(6689),i=t(5152),o=t.n(i);t(5194);let l=()=>((0,d.useEffect)(()=>{},[]),r.jsx("div",{id:"map",style:{height:"400px",width:"100%"}})),p=o()(()=>Promise.resolve(l),{ssr:!1})}};
